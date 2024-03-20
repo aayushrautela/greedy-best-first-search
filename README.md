@@ -14,12 +14,15 @@ This Python program, `maze_solver.py`, is designed to solve mazes using the Gree
 ## Requirements
 
 Before running the program, ensure you have the following prerequisites installed:
-- Python 3.6 or later
+- Python 3.6 or later (Tested on 3.12)
 
 ## Installation
 
 No additional installation is required. Clone or download the repository to get started.
 
+```
+git clone https://github.com/aayushrautela/greedy-best-first-search.git
+```
 ## Usage
 
 To run the program, navigate to the directory containing `maze_solver.py` and execute the following command in your terminal:
