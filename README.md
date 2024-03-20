@@ -38,14 +38,6 @@ The program implements the following two heuristics for the Greedy Best-First Se
 1. **Euclidean Distance:** Calculates the straight-line distance between the current position and the end position.
 2. **Manhattan Distance:** Calculates the sum of the absolute differences of the Cartesian coordinates between the current position and the end position.
 
-## Contributing
-
-We welcome contributions! If you have suggestions for improving the algorithm or adding new features, please feel free to submit a pull request or open an issue.
-
-## License
-
-This project is licensed under the MIT License - see the LICENSE file for details.
-
 ## Algorithm Description and Implementation
 
 ### Greedy Best-First Search Algorithm
@@ -65,6 +57,16 @@ The choice of heuristic can be adjusted based on the characteristics of the maze
 ### Step-by-Step Visualization
 
 To aid in understanding and debugging, the program includes a console-based visualization that displays the maze at each step of the algorithm's execution. This visualization shows the current position, explored paths, and the walls of the maze, offering insight into how the algorithm navigates through the maze towards the goal.
+
+## Contributing
+
+We welcome contributions! If you have suggestions for improving the algorithm or adding new features, please feel free to submit a pull request or open an issue.
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+
 
 This implementation is structured to be modular, allowing for easy adaptation or expansion. Auxiliary functions are included to support the algorithm's operations, such as functions for generating the maze, updating the visualization, and calculating heuristic distances.
 
