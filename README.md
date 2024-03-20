@@ -9,7 +9,7 @@ This Python program, `maze_solver.py`, is designed to solve mazes using the Gree
 - **Greedy Best-First Search Algorithm:** Efficiently finds a path from the start to the end position in a maze.
 - **Two Heuristics:** Implements two distinct heuristics to optimize the search process.
 - **Visualization:** Provides a console-based step-by-step visualization of the algorithm's search procedure, making it easier to understand how the solution is derived.
-- **Test Cases:** Includes various test cases, including corner cases, to ensure the reliability and robustness of the solution.
+- **Test Cases:** Includes various test cases, including corner cases, to ensure the reliability and robustness of the solution. Two test cases are included in the main file.
 
 ## Requirements
 
