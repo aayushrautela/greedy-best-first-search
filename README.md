@@ -65,12 +65,13 @@ To aid in understanding and debugging, the program includes a console-based visu
 - **Heuristic Function A (heuristic_a)**:
   - Calculates the Manhattan distance between a given point and the end position.
   - Manhattan distance is the sum of the absolute differences in the x and y coordinates between two points.
-  - Formula: \(|x_1 - x_2| + |y_1 - y_2|\)
+  - Formula: $$|x_1 - x_2| + |y_1 - y_2|$$
+
 
 - **Heuristic Function B (heuristic_b)**:
   - Calculates the Euclidean distance between a given point and the end position.
   - Euclidean distance is the straight-line distance between two points in a Euclidean space.
-  - Formula: \(\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\)
+  - Formula: $$\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
 
 ### Greedy Search Function:
 
