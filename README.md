@@ -71,7 +71,7 @@ To aid in understanding and debugging, the program includes a console-based visu
 - **Heuristic Function B (heuristic_b)**:
   - Calculates the Euclidean distance between a given point and the end position.
   - Euclidean distance is the straight-line distance between two points in a Euclidean space.
-  - Formula: \(\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\)
+  - Formula: $$\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}$$
 
 ### Greedy Search Function:
 
