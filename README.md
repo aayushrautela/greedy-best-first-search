@@ -58,6 +58,36 @@ The choice of heuristic can be adjusted based on the characteristics of the maze
 
 To aid in understanding and debugging, the program includes a console-based visualization that displays the maze at each step of the algorithm's execution. This visualization shows the current position, explored paths, and the walls of the maze, offering insight into how the algorithm navigates through the maze towards the goal.
 
+## Explanation of Heuristic Functions and Greedy Search
+
+### Heuristic Functions:
+
+- **Heuristic Function A (heuristic_a)**:
+  - Calculates the Manhattan distance between a given point and the end position.
+  - Manhattan distance is the sum of the absolute differences in the x and y coordinates between two points.
+  - Formula: \(|x_1 - x_2| + |y_1 - y_2|\)
+
+- **Heuristic Function B (heuristic_b)**:
+  - Calculates the Euclidean distance between a given point and the end position.
+  - Euclidean distance is the straight-line distance between two points in a Euclidean space.
+  - Formula: \(\sqrt{(x_2 - x_1)^2 + (y_2 - y_1)^2}\)
+
+### Greedy Search Function:
+
+- Implements the Greedy Best-First Search algorithm.
+- Takes four arguments: `maze`, `start`, `finish`, and `heuristic`.
+- Initializes a priority queue (`heap_queue`) using Python's `heapq` module.
+- Continues to loop until the priority queue is empty.
+- Pops the node with the lowest estimated cost from the priority queue.
+- Adds the popped node's position to the visited list.
+- If the popped node's position matches the goal position, reconstructs the path from start to goal and returns the path length and visited nodes.
+- Otherwise, expands the current node by considering its neighboring positions.
+- Calculates the cost to reach each neighboring position and the heuristic estimate from that position to the goal.
+- Pushes these neighboring nodes into the priority queue.
+- Returns -1 if no path is found.
+
+
+
 ## Contributing
 
 We welcome contributions! If you have suggestions for improving the algorithm or adding new features, please feel free to submit a pull request or open an issue.
