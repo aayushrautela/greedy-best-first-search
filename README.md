@@ -65,7 +65,8 @@ To aid in understanding and debugging, the program includes a console-based visu
 - **Heuristic Function A (heuristic_a)**:
   - Calculates the Manhattan distance between a given point and the end position.
   - Manhattan distance is the sum of the absolute differences in the x and y coordinates between two points.
-  - Formula: \(|x_1 - x_2| + |y_1 - y_2|\)
+  - Formula: $$|x_1 - x_2| + |y_1 - y_2|$$
+
 
 - **Heuristic Function B (heuristic_b)**:
   - Calculates the Euclidean distance between a given point and the end position.
