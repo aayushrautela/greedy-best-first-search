@@ -1,5 +1,3 @@
-# greedy-best-first-search
-
 # Maze Solver
 
 ## Overview
