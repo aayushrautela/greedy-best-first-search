@@ -54,6 +54,10 @@ In `maze_solver.py`, the GBFS algorithm is implemented with two heuristics to ef
 
 The choice of heuristic can be adjusted based on the characteristics of the maze, allowing for flexibility and optimization in solving various maze configurations.
 
+This implementation is structured to be modular, allowing for easy adaptation or expansion. Auxiliary functions are included to support the algorithm's operations, such as functions for generating the maze, updating the visualization, and calculating heuristic distances.
+
+By combining the GBFS algorithm with these heuristics and visualization tools, this project provides a comprehensive solution for solving mazes, demonstrating the practical application of these concepts in a Python environment.
+
 ### Step-by-Step Visualization
 
 To aid in understanding and debugging, the program includes a console-based visualization that displays the maze at each step of the algorithm's execution. This visualization shows the current position, explored paths, and the walls of the maze, offering insight into how the algorithm navigates through the maze towards the goal.
@@ -97,8 +101,3 @@ We welcome contributions! If you have suggestions for improving the algorithm or
 
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-
-
-This implementation is structured to be modular, allowing for easy adaptation or expansion. Auxiliary functions are included to support the algorithm's operations, such as functions for generating the maze, updating the visualization, and calculating heuristic distances.
-
-By combining the GBFS algorithm with these heuristics and visualization tools, this project provides a comprehensive solution for solving mazes, demonstrating the practical application of these concepts in a Python environment.
